@@ -1,17 +1,24 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": ".",
+    "rootDir": "./src",
     "target": "es2019",
-    "module": "commonjs",
+    "module": "CommonJS",
     "typeRoots": [
       "src/@types",
       "./node_modules/@types"
     ],
+    "baseUrl": ".",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "paths": {
+      "*": ["node_modules/*"]
+    }
   },
+  "include": ["src/**/*", "src/swagger.js", "src/**.json"],
   "exclude": ["node_modules"]
 }
