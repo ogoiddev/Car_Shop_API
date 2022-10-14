@@ -1,9 +1,22 @@
 # 🚧 README em construção 🚧
 
+## Para rodar essa aplicação localmente voce pode clonar o repositório e executar alguns comandos:
+```
+$ npm i
+```
+```
+$ docker compose up -d
+```
+
+Voce vai precisar ter na maquina rodando alem de um setup dev as ferramentas:
+
+- NodeJS
+- Docker & Docker compose
+
 
 ![Screenshot](https://github.com/ogoiddev/Car_Shop_API/blob/main/public/Screenshot%20from%202022-10-13%2014-04-58.png)
 
-![Screenshot]()
+![Screenshot](https://github.com/ogoiddev/Car_Shop_API/blob/main/public/Screenshot%20from%202022-10-13%2023-25-46.png)
 
 <!-- Olá, Tryber!
 

@@ -8,13 +8,13 @@ services:
     # Nome do container para facilitar execução
     container_name: car_shop
     # Caminho da Dockerfile
-    build: ./ 
+    build: ./
     # Mesmo que `docker run -t`
     tty: true
     # Mesmo que `docker run -i`
     stdin_open: true
     # Substitui o comando padrão da imagem do node
-    command: bash
+    command: npm run dev
     # Restarta a imagem caso algo a faça parar
     restart: always
     # Diretório padrão de execução
